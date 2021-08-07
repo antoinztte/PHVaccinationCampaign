@@ -10,11 +10,21 @@ import UIKit
 class profileViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     var imagePicker = UIImagePickerController()
+    
+    let checkbox1 = CircularCheckbox(frame: CGRect(x: 70, y: 200, width: 40, height: 40))
 
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
-
+        view.addSubview(checkbox1)
+        
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(didTapCheckbox))
+        checkbox1.addGestureRecognizer(gesture)
+ 
+    }
+    
+    @objc func didTapCheckbox() {
+        checkbox1.toggle()
     }
     
     @IBAction func takeSelfieTapped(_ sender: UIButton) {
@@ -40,4 +50,36 @@ class profileViewController: UIViewController, UIImagePickerControllerDelegate, 
         imagePicker.dismiss(animated: true, completion: nil)
     }
     
+}
+
+class CircularCheckbox: UIView {
+    
+    private var isChecked = false
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        layer.borderWidth = 0.5
+        layer.borderColor = UIColor.label.cgColor
+        layer.cornerRadius = frame.size.width / 2.0
+        backgroundColor = .systemBackground
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError()
+    }
+    
+    func toggle() {
+        self.isChecked = !isChecked
+        if isChecked {
+            backgroundColor = .systemBlue
+        }
+        else {
+            backgroundColor = .systemBackground
+        }
+    }
+    
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        layer.borderColor = UIColor.label.cgColor
+    }
 }
