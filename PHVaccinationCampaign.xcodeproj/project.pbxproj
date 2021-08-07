@@ -17,6 +17,7 @@
 		99D9AAC026BEFFE900827797 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D9AABF26BEFFE900827797 /* mapViewController.swift */; };
 		99D9AAC226BF00B700827797 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D9AAC126BF00B700827797 /* LocationManager.swift */; };
 		99D9AAC426BF096000827797 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D9AAC326BF096000827797 /* profileViewController.swift */; };
+		99D9AAC626BF1F2C00827797 /* cardPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D9AAC526BF1F2B00827797 /* cardPopupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		99D9AABF26BEFFE900827797 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		99D9AAC126BF00B700827797 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		99D9AAC326BF096000827797 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		99D9AAC526BF1F2B00827797 /* cardPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardPopupViewController.swift; sourceTree = "<group>"; };
+		99D9AAC726BF2CEC00827797 /* PH Vaccine Centers .gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "PH Vaccine Centers .gpx"; path = "../../../../Downloads/PH Vaccine Centers .gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,7 @@
 		99D9AA9C26BEF53700827797 = {
 			isa = PBXGroup;
 			children = (
+				99D9AAC726BF2CEC00827797 /* PH Vaccine Centers .gpx */,
 				99D9AAA726BEF53700827797 /* PHVaccinationCampaign */,
 				99D9AAA626BEF53700827797 /* Products */,
 			);
@@ -75,6 +79,7 @@
 				99D9AABF26BEFFE900827797 /* mapViewController.swift */,
 				99D9AAC126BF00B700827797 /* LocationManager.swift */,
 				99D9AAC326BF096000827797 /* profileViewController.swift */,
+				99D9AAC526BF1F2B00827797 /* cardPopupViewController.swift */,
 			);
 			path = PHVaccinationCampaign;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				99D9AAC426BF096000827797 /* profileViewController.swift in Sources */,
 				99D9AAC226BF00B700827797 /* LocationManager.swift in Sources */,
 				99D9AAB326BEF53700827797 /* PHVaccinationCampaign.xcdatamodeld in Sources */,
+				99D9AAC626BF1F2C00827797 /* cardPopupViewController.swift in Sources */,
 				99D9AAA926BEF53700827797 /* AppDelegate.swift in Sources */,
 				99D9AAAB26BEF53700827797 /* SceneDelegate.swift in Sources */,
 			);

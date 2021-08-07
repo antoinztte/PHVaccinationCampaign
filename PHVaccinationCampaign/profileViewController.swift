@@ -11,20 +11,37 @@ class profileViewController: UIViewController, UIImagePickerControllerDelegate, 
     
     var imagePicker = UIImagePickerController()
     
-    let checkbox1 = CircularCheckbox(frame: CGRect(x: 70, y: 200, width: 40, height: 40))
+    let checkbox1 = CircularCheckbox(frame: CGRect(x: 204, y: 578, width: 40, height: 40))
+    let checkbox2 = CircularCheckbox(frame: CGRect(x: 204, y: 623, width: 40, height: 40))
+    
 
+    @IBOutlet weak var nameTextField: UITextField!
+    func getName () -> String? {
+         return nameTextField.text
+    }
+    @IBOutlet weak var ageTextField: UITextField!
+    @IBOutlet weak var idNumTextField: UITextField!
+    @IBOutlet weak var vaccineTypeTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
         view.addSubview(checkbox1)
+        view.addSubview(checkbox2)
         
         let gesture = UITapGestureRecognizer(target: self, action: #selector(didTapCheckbox))
         checkbox1.addGestureRecognizer(gesture)
- 
+        
+        let gesture2 = UITapGestureRecognizer(target: self, action: #selector(didTapCheckbox2))
+        checkbox2.addGestureRecognizer(gesture2)
     }
     
     @objc func didTapCheckbox() {
         checkbox1.toggle()
+    }
+    
+    @objc func didTapCheckbox2() {
+        checkbox2.toggle()
     }
     
     @IBAction func takeSelfieTapped(_ sender: UIButton) {
@@ -48,6 +65,11 @@ class profileViewController: UIViewController, UIImagePickerControllerDelegate, 
         }
         
         imagePicker.dismiss(animated: true, completion: nil)
+    }
+    
+    
+
+    @IBAction func submitButtonTapped(_ sender: UIButton) {
     }
     
 }
