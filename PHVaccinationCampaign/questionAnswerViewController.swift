@@ -6,7 +6,7 @@
 //
 
 struct MyQuestionAnswerer {
-    func responseTo(question: "How many Filipinos have received the vaccine?") -> String {
+    func responseTo(question: String) -> String {
         return "As of August 8, 2021, 10.7 million Filipinos are fully vaccinated!"
     }
 }

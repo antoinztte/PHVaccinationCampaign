@@ -17,7 +17,7 @@
                BlueprintIdentifier = "99D9AAA426BEF53700827797"
                BuildableName = "PHVaccinationCampaign.app"
                BlueprintName = "PHVaccinationCampaign"
-               ReferencedContainer = "container:PHVaccinationCampaign.xcodeproj">
+               ReferencedContainer = "container:PH7.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "99D9AAA426BEF53700827797"
             BuildableName = "PHVaccinationCampaign.app"
             BlueprintName = "PHVaccinationCampaign"
-            ReferencedContainer = "container:PHVaccinationCampaign.xcodeproj">
+            ReferencedContainer = "container:PH7.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
@@ -68,7 +68,7 @@
             BlueprintIdentifier = "99D9AAA426BEF53700827797"
             BuildableName = "PHVaccinationCampaign.app"
             BlueprintName = "PHVaccinationCampaign"
-            ReferencedContainer = "container:PHVaccinationCampaign.xcodeproj">
+            ReferencedContainer = "container:PH7.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
