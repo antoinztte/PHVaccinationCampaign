@@ -11,8 +11,8 @@ class profileViewController: UIViewController, UIImagePickerControllerDelegate, 
     
     var imagePicker = UIImagePickerController()
     
-    let checkbox1 = CircularCheckbox(frame: CGRect(x: 252, y: 623, width: 34, height: 34))
-    let checkbox2 = CircularCheckbox(frame: CGRect(x: 252, y: 675, width: 34, height: 34))
+    let checkbox1 = CircularCheckbox(frame: CGRect(x: 250, y: 618, width: 34, height: 34))
+    let checkbox2 = CircularCheckbox(frame: CGRect(x: 250, y: 670, width: 34, height: 34))
     
 
     @IBOutlet weak var nameTextField: UITextField!
@@ -32,6 +32,7 @@ class profileViewController: UIViewController, UIImagePickerControllerDelegate, 
         
         let gesture2 = UITapGestureRecognizer(target: self, action: #selector(didTapCheckbox2))
         checkbox2.addGestureRecognizer(gesture2)
+        
     }
     
     @objc func didTapCheckbox() {
@@ -64,13 +65,18 @@ class profileViewController: UIViewController, UIImagePickerControllerDelegate, 
         
         imagePicker.dismiss(animated: true, completion: nil)
     }
-    
-    
 
-    @IBAction func submitButtonTapped(_ sender: UIButton) {
+    @IBAction func submitButtonTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "Other", sender: self)
+        }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier  == "Other" {
+            let vc = segue.destination as! cardPopupViewController
+                    vc.stringHolder = nameTextField.text!
+        }
     }
     
-}
 
 class CircularCheckbox: UIView {
     
@@ -103,4 +109,5 @@ class CircularCheckbox: UIView {
         layer.borderColor = UIColor.label.cgColor
     }
     
+}
 }

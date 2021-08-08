@@ -8,13 +8,13 @@
 import UIKit
 
 class cardPopupViewController: UIViewController {
-
     
     @IBOutlet weak var vaxxCard: UILabel!
+    var stringHolder:String = " "
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.vaxxCard.text = "Thanks \(stringHolder)! We now have your vaccination information. Prepare to recieve a digital vaccination card soon!"
     }
 
 }
