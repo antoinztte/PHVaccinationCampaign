@@ -8,10 +8,10 @@
 import UIKit
 
 class questionViewController: UIViewController {
-    
+
     @IBOutlet weak var responseLabel: UILabel!
-    @IBOutlet weak var questionField: UITextField!
     @IBOutlet weak var askButton: UIButton!
+    @IBOutlet weak var questionField: UITextField!
     
     let questionAnswerer = MyQuestionAnswerer()
 
@@ -28,8 +28,8 @@ class questionViewController: UIViewController {
         questionField.text = nil
         askButton.isEnabled = false
     }
-    
-    @IBAction func askButtonTapped(_ sender: Any) {
+
+    @IBAction func askButtonTapped(_ sender: AnyObject) {
         guard questionField.text != nil else {
             return
         }
@@ -39,7 +39,11 @@ class questionViewController: UIViewController {
     func displayAnswerTextOnScreen(_ answer: String) {
         responseLabel.text = answer
     }
-    
+
+}
+
+extension questionViewController: UITextFieldDelegate {
+
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return false
@@ -53,15 +57,16 @@ class questionViewController: UIViewController {
         respondToQuestion(text)
     }
     
-    @IBAction func editingChanged(_ sender: UITextField) {
-        guard let text = questionField.text else {
+    @IBAction func editingChanged(_ textField: UITextField) {
+        guard let text = textField.text else {
             askButton.isEnabled = false
             return
         }
-                
-            askButton.isEnabled = !text.isEmpty
-        }
+        
+        askButton.isEnabled = !text.isEmpty
+    }
 }
+
     
 
 
