@@ -17,6 +17,7 @@ class questionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        questionField.placeholder = "Ask another question..."
         questionField.becomeFirstResponder()
     }
 
@@ -24,7 +25,6 @@ class questionViewController: UIViewController {
         let answer = questionAnswerer.responseTo(question: question)
 
         displayAnswerTextOnScreen(answer)
-        questionField.placeholder = "Ask another question..."
         questionField.text = nil
         askButton.isEnabled = false
     }
@@ -66,12 +66,6 @@ extension questionViewController: UITextFieldDelegate {
         askButton.isEnabled = !text.isEmpty
     }
 }
-
-    
-
-
-
-
 
 
 

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9976CE4E26BF391200CE9BFB /* questionAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9976CE4D26BF391200CE9BFB /* questionAnswerViewController.swift */; };
+		9919703826C0631B0042FE1A /* questionAnswerer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9919703726C0631B0042FE1A /* questionAnswerer.swift */; };
 		9976CE5026BF410800CE9BFB /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9976CE4F26BF410800CE9BFB /* questionViewController.swift */; };
 		9976CE5226BF636800CE9BFB /* Lato in Resources */ = {isa = PBXBuildFile; fileRef = 9976CE5126BF636800CE9BFB /* Lato */; };
 		99D9AAA926BEF53700827797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D9AAA826BEF53700827797 /* AppDelegate.swift */; };
@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9976CE4D26BF391200CE9BFB /* questionAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionAnswerViewController.swift; sourceTree = "<group>"; };
+		9919703726C0631B0042FE1A /* questionAnswerer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionAnswerer.swift; sourceTree = "<group>"; };
 		9976CE4F26BF410800CE9BFB /* questionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionViewController.swift; sourceTree = "<group>"; };
 		9976CE5126BF636800CE9BFB /* Lato */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Lato; path = ../../../../../Downloads/Lato; sourceTree = "<group>"; };
 		99D9AAA526BEF53700827797 /* PHVaccinationCampaign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHVaccinationCampaign.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,8 +87,8 @@
 				99D9AAC126BF00B700827797 /* LocationManager.swift */,
 				99D9AAC326BF096000827797 /* profileViewController.swift */,
 				99D9AAC526BF1F2B00827797 /* cardPopupViewController.swift */,
-				9976CE4D26BF391200CE9BFB /* questionAnswerViewController.swift */,
 				9976CE4F26BF410800CE9BFB /* questionViewController.swift */,
+				9919703726C0631B0042FE1A /* questionAnswerer.swift */,
 			);
 			path = PHVaccinationCampaign;
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9919703826C0631B0042FE1A /* questionAnswerer.swift in Sources */,
 				99D9AAAD26BEF53700827797 /* ViewController.swift in Sources */,
 				99D9AAC026BEFFE900827797 /* mapViewController.swift in Sources */,
-				9976CE4E26BF391200CE9BFB /* questionAnswerViewController.swift in Sources */,
 				99D9AAC426BF096000827797 /* profileViewController.swift in Sources */,
 				9976CE5026BF410800CE9BFB /* questionViewController.swift in Sources */,
 				99D9AAC226BF00B700827797 /* LocationManager.swift in Sources */,

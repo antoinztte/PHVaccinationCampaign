@@ -1,11 +1,9 @@
 //
-//  questionAnswerViewController.swift
+//  questionAnswerer.swift
 //  PHVaccinationCampaign
 //
-//  Created by Antoinette Marie Torres on 8/7/21.
+//  Created by Antoinette Marie Torres on 8/8/21.
 //
-
-import UIKit
 
 struct MyQuestionAnswerer {
     
@@ -23,6 +21,5 @@ struct MyQuestionAnswerer {
         } else {
             return "?"
         }
-        
     }
 }

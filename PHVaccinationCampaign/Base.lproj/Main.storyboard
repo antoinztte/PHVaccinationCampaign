@@ -34,11 +34,11 @@
             </objects>
             <point key="canvasLocation" x="-197" y="87"/>
         </scene>
-        <!--Item-->
+        <!--Benefits-->
         <scene sceneID="1Gm-iN-Hlq">
             <objects>
                 <navigationController id="Ceg-n0-hie" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="star" catalog="system" id="yQL-M8-amf"/>
+                    <tabBarItem key="tabBarItem" title="Benefits" selectedImage="star" catalog="system" id="yQL-M8-amf"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="acJ-lf-xvm">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -66,7 +66,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Celeb Vaccine" translatesAutoresizingMaskIntoConstraints="NO" id="PZe-NH-XBR">
-                                                <rect key="frame" x="236" y="87" width="129" height="128"/>
+                                                <rect key="frame" x="245" y="552" width="129" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -75,7 +75,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kathryn:Daniel" translatesAutoresizingMaskIntoConstraints="NO" id="oYK-dh-8Yw">
-                                                <rect key="frame" x="29" y="87" width="199" height="128"/>
+                                                <rect key="frame" x="38" y="552" width="199" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -84,19 +84,19 @@
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vaxx Perk 1" translatesAutoresizingMaskIntoConstraints="NO" id="0qb-pF-M9q">
-                                                <rect key="frame" x="28" y="630" width="337" height="209"/>
+                                                <rect key="frame" x="41" y="732" width="337" height="209"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vaxx Perk 2" translatesAutoresizingMaskIntoConstraints="NO" id="6nV-88-Qac">
-                                                <rect key="frame" x="237" y="967" width="131" height="128"/>
+                                                <rect key="frame" x="242" y="1064" width="131" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="peJ-iS-cD0">
-                                                <rect key="frame" x="29" y="35" width="337" height="34"/>
+                                                <rect key="frame" x="37" y="500" width="337" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.71764705880000002" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="Join your fellow Filipinos! Get vaccinated!">
+                                                    <fragment content="Empowered by your favorite celebrities?">
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="17" name="Lato-Regular"/>
@@ -111,53 +111,8 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Celeb Vaccine 4" translatesAutoresizingMaskIntoConstraints="NO" id="AVE-WO-CJB">
-                                                <rect key="frame" x="29" y="223" width="132" height="122"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Celeb Vaccine 2" translatesAutoresizingMaskIntoConstraints="NO" id="bCP-4c-0lO">
-                                                <rect key="frame" x="169" y="223" width="211" height="183"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Celeb Vaccine 3" translatesAutoresizingMaskIntoConstraints="NO" id="v1j-Uh-5vq">
-                                                <rect key="frame" x="169" y="414" width="199" height="166"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Celeb Vaccine 5" translatesAutoresizingMaskIntoConstraints="NO" id="gbH-WC-tZY">
-                                                <rect key="frame" x="29" y="353" width="132" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Celeb Vaccine 6" translatesAutoresizingMaskIntoConstraints="NO" id="aBO-BG-fxH">
-                                                <rect key="frame" x="29" y="489" width="138" height="91"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </imageView>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yw-OF-P2v">
-                                                <rect key="frame" x="29" y="601" width="337" height="34"/>
+                                                <rect key="frame" x="36" y="699" width="337" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.47058823529999999" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <attributedString key="attributedText">
@@ -177,18 +132,18 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6o-Ct-Nlr">
-                                                <rect key="frame" x="29" y="834" width="336" height="117"/>
+                                                <rect key="frame" x="37" y="935" width="336" height="117"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.058823529409999999" green="0.098039215690000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Fully vaccinated individuals get a free Chocolate Chip Cookie for every box of cookies ordered. Promo is valid until ">
                                                         <attributes>
-                                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Lato-Regular"/>
+                                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="16" name="LaoSangamMN"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="18" name="Lato-Regular"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                 <tabStops/>
                                                             </paragraphStyle>
                                                             <color key="NSStrokeColor" red="0.11373" green="0.13333" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -196,11 +151,11 @@
                                                     </fragment>
                                                     <fragment content="August 31st ">
                                                         <attributes>
-                                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Lato-Regular"/>
+                                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="16" name="LaoSangamMN"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                 <tabStops/>
                                                             </paragraphStyle>
                                                             <color key="NSStrokeColor" red="0.11373" green="0.13333" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -208,33 +163,38 @@
                                                     </fragment>
                                                     <fragment content="only. Message its Instagram page @tatiscookiescebu to order.">
                                                         <attributes>
-                                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Lato-Regular"/>
+                                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <font key="NSFont" size="16" name="LaoSangamMN"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="18" name="Lato-Regular"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                 <tabStops/>
                                                             </paragraphStyle>
                                                             <color key="NSStrokeColor" red="0.11373" green="0.13333" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
-                                                <nil key="highlightedColor"/>
+                                                <color key="highlightedColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRV-qh-r5C">
-                                                <rect key="frame" x="28" y="965" width="190" height="132"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRV-qh-r5C">
+                                                <rect key="frame" x="39" y="1060" width="190" height="132"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.98431372549999996" green="0.52156862749999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">Partake in your favorite Chickenjoy and other langhap-sarap favorites at 10 percent off when you dine in at any Jollibee branch nationwide. Just show proof of vaccine!</string>
                                                         <attributes>
-                                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="15" name="Lato-Regular"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
                                                                 <tabStops/>
                                                             </paragraphStyle>
                                                             <color key="NSStrokeColor" red="0.11373" green="0.13333" blue="0.15686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -242,23 +202,87 @@
                                                     </fragment>
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ha5-W3-67A">
-                                                <rect key="frame" x="28" y="1122" width="340" height="21"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMR-Vd-c23">
+                                                <rect key="frame" x="97" y="78" width="220" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="1" green="0.71764705880000002" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.98431372549999996" green="0.52156862749999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="For more perks, stay updated on the app!">
+                                                    <fragment content="Benefits for the Vaccinated:">
                                                         <attributes>
-                                                            <font key="NSFont" size="17" name="Lato-Italic"/>
+                                                            <font key="NSFont" size="17" name="Lato-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbI-V0-2lm">
+                                                <rect key="frame" x="39" y="132" width="336" height="152"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.058823529409999999" green="0.098039215690000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">After you are fully vaccinated, you can resume the activities you enjoyed before the pandemic. In some cases, you can resume activities without wearing a mask or social distancing, except where required by federal, state, local, or territorial laws, rules, and regulations, including local business and workplace guidance.</string>
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yoO-xn-gEX">
+                                                <rect key="frame" x="41" y="292" width="333" height="184"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.47058823529999999" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">Getting vaccinated is also a powerful way of taking back control from a pandemic that disrupted so much of everyday life. 
+The vaccine protects against the symptoms of being unwell. Studies show that even mild cases of COVID-19 result in viral spike proteins which invade the brain, causing inflammation and potentially serious physical and mental effects.</string>
+                                                        <attributes>
+                                                            <color key="NSBackgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="16" name="Lato-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Flag" translatesAutoresizingMaskIntoConstraints="NO" id="9pm-B8-qE7">
+                                                <rect key="frame" x="0.0" y="-38" width="414" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.058823529411764705" green="0.098039215686274508" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1200" id="vhz-5y-WKf"/>
                                         </constraints>
@@ -347,7 +371,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Cg-rN-J67">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Cg-rN-J67">
                                                 <rect key="frame" x="35" y="261" width="345" height="137"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
@@ -377,7 +401,7 @@
                                                 <attributedString key="attributedText">
                                                     <fragment content="Statistics">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="17" name="Lato-Bold"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
@@ -540,60 +564,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3lr-ac-O5p">
-                                <rect key="frame" x="20" y="233" width="374" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="editingChanged:" destination="hdd-la-eby" eventType="editingDidEnd" id="QDQ-0E-kvF"/>
-                                </connections>
-                            </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Robot" translatesAutoresizingMaskIntoConstraints="NO" id="dUS-63-FWW">
-                                <rect key="frame" x="20" y="115" width="100" height="100"/>
+                                <rect key="frame" x="20" y="114" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the VaxxBot - space for all your vaccine-related questions!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXs-ve-Mwy">
-                                <rect key="frame" x="219" y="115" width="0.0" height="0.0"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="0.0"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvI-a7-ev7">
-                                <rect key="frame" x="20" y="450" width="374" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.47058823529999999" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
-                                <state key="normal" title="Ask VaxxBot!">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="askButtonTapped:" destination="hdd-la-eby" eventType="touchUpInside" id="SFK-Vy-Ief"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ne8-UN-t0n">
-                                <rect key="frame" x="140" y="115" width="254" height="100"/>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ne8-UN-t0n">
+                                <rect key="frame" x="140" y="114" width="254" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.47058823529411764" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES"/>
+                                    <accessibilityTraits key="traits" adjustable="YES"/>
                                 </accessibility>
                                 <attributedString key="attributedText">
                                     <fragment content="Hello! I am VaxxBot. Ask me a vaccine-related question.">
                                         <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="17" name="Lato-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -606,15 +591,47 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3lr-ac-O5p">
+                                <rect key="frame" x="20" y="234" width="374" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="editingChanged:" destination="hdd-la-eby" eventType="editingDidEnd" id="M9n-mw-pQl"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvI-a7-ev7">
+                                <rect key="frame" x="20" y="457" width="374" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.47058823529999999" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
+                                <state key="normal" title="Ask VaxxBot!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="askButtonTapped:" destination="hdd-la-eby" eventType="touchUpInside" id="UR2-qg-LYR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dcf-wy-STI"/>
                         <color key="backgroundColor" red="0.058823529411764705" green="0.098039215686274508" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Vaccine Bot" id="Tr4-QX-Zlo"/>
                     <connections>
-                        <outlet property="askButton" destination="yvI-a7-ev7" id="zDH-43-Msg"/>
-                        <outlet property="questionField" destination="3lr-ac-O5p" id="Cmu-3h-1Y8"/>
-                        <outlet property="responseLabel" destination="Ne8-UN-t0n" id="Lr9-Ix-898"/>
+                        <outlet property="askButton" destination="yvI-a7-ev7" id="wzW-9o-aVw"/>
+                        <outlet property="questionField" destination="3lr-ac-O5p" id="eRS-r8-zTL"/>
+                        <outlet property="responseLabel" destination="Ne8-UN-t0n" id="wkG-68-3ui"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0gD-Mn-Xki" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -734,6 +751,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2PW-5l-m7U">
                                 <rect key="frame" x="157" y="321" width="200" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.098039215690000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
@@ -743,22 +761,24 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aQw-Za-RHg">
                                 <rect key="frame" x="158" y="377" width="200" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.098039215690000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UVV-2v-MEO">
                                 <rect key="frame" x="157" y="431" width="200" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.098039215690000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSO-EZ-kht">
                                 <rect key="frame" x="107" y="725" width="200" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.098039215690000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
                                 <state key="normal" title="Create Vaccination Card">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -801,6 +821,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mRA-d0-Ywx">
                                 <rect key="frame" x="158" y="490" width="200" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.098039215690000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -818,17 +839,20 @@
                                     <constraint firstAttribute="height" constant="100" id="ifN-Ig-um4"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ubw-NK-iy5">
-                                <rect key="frame" x="107" y="117.5" width="200" height="129"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ubw-NK-iy5">
+                                <rect key="frame" x="157" y="131.5" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.098039215690000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="QyN-ac-TcR"/>
-                                    <constraint firstAttribute="height" constant="130" id="Rq0-r4-7ey"/>
-                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P2v-R6-ctE"/>
-                        <color key="backgroundColor" red="0.058823529411764705" green="0.098039215686274508" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Ifj-0G-tYZ" firstAttribute="top" secondItem="P2v-R6-ctE" secondAttribute="top" constant="44" id="2h4-ss-uLJ"/>
                             <constraint firstItem="P2v-R6-ctE" firstAttribute="trailing" secondItem="HdV-bW-KVP" secondAttribute="trailing" constant="20" id="59e-6d-q3J"/>
@@ -838,9 +862,6 @@
                             <constraint firstItem="s1i-o0-IuM" firstAttribute="leading" secondItem="mle-py-YTf" secondAttribute="trailing" constant="22" id="NFH-JI-u6u"/>
                             <constraint firstItem="mle-py-YTf" firstAttribute="top" secondItem="Ifj-0G-tYZ" secondAttribute="bottom" constant="23" id="WUu-nM-LkW"/>
                             <constraint firstItem="s1i-o0-IuM" firstAttribute="top" secondItem="HdV-bW-KVP" secondAttribute="bottom" constant="23" id="eO1-y3-KLs"/>
-                            <constraint firstItem="P2v-R6-ctE" firstAttribute="trailing" secondItem="ubw-NK-iy5" secondAttribute="trailing" constant="107" id="hDm-Zc-1sg"/>
-                            <constraint firstItem="ubw-NK-iy5" firstAttribute="top" secondItem="P2v-R6-ctE" secondAttribute="top" constant="29" id="oqn-39-ypc"/>
-                            <constraint firstItem="ubw-NK-iy5" firstAttribute="leading" secondItem="P2v-R6-ctE" secondAttribute="leading" constant="107" id="s1p-nW-MJF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="WEu-eW-Oyg"/>
@@ -865,8 +886,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Thank You 1" translatesAutoresizingMaskIntoConstraints="NO" id="hZX-bq-ZDC">
+                                <rect key="frame" x="-37" y="343" width="489" height="499"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9c-Pi-Vqz">
-                                <rect key="frame" x="57" y="313" width="300" height="200"/>
+                                <rect key="frame" x="57" y="135" width="300" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.098039215690000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
@@ -881,13 +907,13 @@
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="0"/>
+                                        <integer key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XR9-o5-qB1"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.71764705880000002" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="vaxxCard" destination="i9c-Pi-Vqz" id="EUm-P9-FYr"/>
@@ -897,11 +923,11 @@
             </objects>
             <point key="canvasLocation" x="1346.376811594203" y="2176.3392857142858"/>
         </scene>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="cMp-sm-mV5">
             <objects>
                 <navigationController id="IgA-y6-AD4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="house" catalog="system" id="lJT-Ji-JU9"/>
+                    <tabBarItem key="tabBarItem" title="Home" selectedImage="house" catalog="system" id="lJT-Ji-JU9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jgg-8t-D2I">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -914,11 +940,11 @@
             </objects>
             <point key="canvasLocation" x="-196" y="779"/>
         </scene>
-        <!--Item-->
+        <!--ChatBot-->
         <scene sceneID="5Os-So-uE8">
             <objects>
                 <navigationController id="NAa-bu-cQx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="bubble.middle.bottom" catalog="system" id="Ame-bE-xIz"/>
+                    <tabBarItem key="tabBarItem" title="ChatBot" selectedImage="bubble.middle.bottom" catalog="system" id="Ame-bE-xIz"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nNH-e4-rY1">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -931,11 +957,11 @@
             </objects>
             <point key="canvasLocation" x="557" y="779"/>
         </scene>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="wa6-yu-rYz">
             <objects>
                 <navigationController id="ic9-Uj-Q2F" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="person" catalog="system" id="7xv-kx-2wV"/>
+                    <tabBarItem key="tabBarItem" title="Profile" selectedImage="person" catalog="system" id="7xv-kx-2wV"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TgP-un-VwP">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -948,11 +974,11 @@
             </objects>
             <point key="canvasLocation" x="1348" y="779"/>
         </scene>
-        <!--Item-->
+        <!--Map-->
         <scene sceneID="qOp-vB-PHh">
             <objects>
                 <navigationController id="30Q-pC-J77" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="map" catalog="system" id="dJx-Xy-Yy9"/>
+                    <tabBarItem key="tabBarItem" title="Map" selectedImage="map" catalog="system" id="dJx-Xy-Yy9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="udC-fh-O9E">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -968,11 +994,7 @@
     </scenes>
     <resources>
         <image name="Celeb Vaccine" width="1016" height="984"/>
-        <image name="Celeb Vaccine 2" width="1180" height="1176"/>
-        <image name="Celeb Vaccine 3" width="1336" height="1166"/>
-        <image name="Celeb Vaccine 4" width="1398" height="1140"/>
-        <image name="Celeb Vaccine 5" width="1084" height="1074"/>
-        <image name="Celeb Vaccine 6" width="1450" height="1046"/>
+        <image name="Flag" width="500" height="101"/>
         <image name="Get Tested!" width="498" height="497"/>
         <image name="Get Vaccinated" width="498" height="497"/>
         <image name="Get Vaccinated!" width="497" height="497"/>
@@ -983,6 +1005,7 @@
         <image name="Profile Flag" width="497" height="495"/>
         <image name="Profile Flag Flipped" width="497" height="495"/>
         <image name="Robot" width="498" height="498"/>
+        <image name="Thank You 1" width="500" height="500"/>
         <image name="Vaxx Perk 1" width="1280" height="640"/>
         <image name="Vaxx Perk 2" width="2700" height="2700"/>
         <image name="bubble.middle.bottom" catalog="system" width="128" height="110"/>
