@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J96-Oi-aOs">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -38,7 +38,7 @@
         <scene sceneID="1Gm-iN-Hlq">
             <objects>
                 <navigationController id="Ceg-n0-hie" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="yQL-M8-amf"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="star" catalog="system" id="yQL-M8-amf"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="acJ-lf-xvm">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -244,7 +244,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ha5-W3-67A">
-                                                <rect key="frame" x="57" y="1122" width="300" height="21"/>
+                                                <rect key="frame" x="28" y="1122" width="340" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.71764705880000002" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
                                                 <attributedString key="attributedText">
@@ -457,7 +457,7 @@
                                                     </fragment>
                                                     <fragment content="😯">
                                                         <attributes>
-                                                            <font key="NSFont" size="48" name=".AppleColorEmojiUI"/>
+                                                            <font key="NSFont" metaFont="system" size="48"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -530,7 +530,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IpW-dh-2ko" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-198.55072463768118" y="1570.9821428571429"/>
+            <point key="canvasLocation" x="-199" y="1638"/>
         </scene>
         <!--Vaccine Bot-->
         <scene sceneID="iUb-54-DYc">
@@ -681,8 +681,9 @@
                                     <action selector="photoLibraryTapped:" destination="pI0-7V-YyD" eventType="touchUpInside" id="0gu-uU-Cza"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fe5-7y-Uef">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fe5-7y-Uef">
                                 <rect key="frame" x="57" y="321" width="80" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.71764705882352942" blue="0.011764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -854,7 +855,6 @@
                             <constraint firstItem="mle-py-YTf" firstAttribute="top" secondItem="Ifj-0G-tYZ" secondAttribute="bottom" constant="23" id="WUu-nM-LkW"/>
                             <constraint firstItem="s1i-o0-IuM" firstAttribute="top" secondItem="HdV-bW-KVP" secondAttribute="bottom" constant="23" id="eO1-y3-KLs"/>
                             <constraint firstItem="P2v-R6-ctE" firstAttribute="trailing" secondItem="ubw-NK-iy5" secondAttribute="trailing" constant="107" id="hDm-Zc-1sg"/>
-                            <constraint firstItem="fe5-7y-Uef" firstAttribute="top" secondItem="mle-py-YTf" secondAttribute="bottom" constant="36" id="iQD-OY-Lc5"/>
                             <constraint firstItem="ubw-NK-iy5" firstAttribute="top" secondItem="P2v-R6-ctE" secondAttribute="top" constant="29" id="oqn-39-ypc"/>
                             <constraint firstItem="ubw-NK-iy5" firstAttribute="leading" secondItem="P2v-R6-ctE" secondAttribute="leading" constant="107" id="s1p-nW-MJF"/>
                         </constraints>
@@ -881,17 +881,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9c-Pi-Vqz">
-                                <rect key="frame" x="186" y="377" width="42" height="18"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9c-Pi-Vqz">
+                                <rect key="frame" x="57" y="313" width="300" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.098039215690000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Insert Sentence">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="Lato-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="asA-cg-bpo">
-                                <rect key="frame" x="87" y="194" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XR9-o5-qB1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -902,13 +911,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bHx-ap-lcq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1347.8260869565217" y="2176.3392857142858"/>
+            <point key="canvasLocation" x="1346.376811594203" y="2176.3392857142858"/>
         </scene>
         <!--Item-->
         <scene sceneID="cMp-sm-mV5">
             <objects>
                 <navigationController id="IgA-y6-AD4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="lJT-Ji-JU9"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="house" catalog="system" id="lJT-Ji-JU9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jgg-8t-D2I">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -925,7 +934,7 @@
         <scene sceneID="5Os-So-uE8">
             <objects>
                 <navigationController id="NAa-bu-cQx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Ame-bE-xIz"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="bubble.middle.bottom" catalog="system" id="Ame-bE-xIz"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nNH-e4-rY1">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -942,7 +951,7 @@
         <scene sceneID="wa6-yu-rYz">
             <objects>
                 <navigationController id="ic9-Uj-Q2F" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7xv-kx-2wV"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="person" catalog="system" id="7xv-kx-2wV"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TgP-un-VwP">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -959,7 +968,7 @@
         <scene sceneID="qOp-vB-PHh">
             <objects>
                 <navigationController id="30Q-pC-J77" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="dJx-Xy-Yy9"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="map" catalog="system" id="dJx-Xy-Yy9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="udC-fh-O9E">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -992,7 +1001,12 @@
         <image name="Robot" width="498" height="498"/>
         <image name="Vaxx Perk 1" width="1280" height="640"/>
         <image name="Vaxx Perk 2" width="2700" height="2700"/>
+        <image name="bubble.middle.bottom" catalog="system" width="128" height="110"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="map" catalog="system" width="128" height="110"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <image name="person.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="star" catalog="system" width="128" height="116"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
