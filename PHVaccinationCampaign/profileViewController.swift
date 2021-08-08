@@ -11,8 +11,8 @@ class profileViewController: UIViewController, UIImagePickerControllerDelegate, 
     
     var imagePicker = UIImagePickerController()
     
-    let checkbox1 = CircularCheckbox(frame: CGRect(x: 204, y: 578, width: 40, height: 40))
-    let checkbox2 = CircularCheckbox(frame: CGRect(x: 204, y: 623, width: 40, height: 40))
+    let checkbox1 = CircularCheckbox(frame: CGRect(x: 252, y: 623, width: 34, height: 34))
+    let checkbox2 = CircularCheckbox(frame: CGRect(x: 252, y: 675, width: 34, height: 34))
     
 
     @IBOutlet weak var nameTextField: UITextField!
@@ -22,6 +22,7 @@ class profileViewController: UIViewController, UIImagePickerControllerDelegate, 
     @IBOutlet weak var ageTextField: UITextField!
     @IBOutlet weak var idNumTextField: UITextField!
     @IBOutlet weak var vaccineTypeTextField: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -93,7 +94,7 @@ class CircularCheckbox: UIView {
     func toggle() {
         self.isChecked = !isChecked
         if isChecked {
-            backgroundColor = .systemBlue
+            backgroundColor = .systemYellow
         }
         else {
             backgroundColor = .systemBackground
@@ -104,4 +105,5 @@ class CircularCheckbox: UIView {
         super.traitCollectionDidChange(previousTraitCollection)
         layer.borderColor = UIColor.label.cgColor
     }
+    
 }
