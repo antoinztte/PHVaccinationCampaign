@@ -16,9 +16,6 @@ class profileViewController: UIViewController, UIImagePickerControllerDelegate, 
     
 
     @IBOutlet weak var nameTextField: UITextField!
-    func getName () -> String? {
-         return nameTextField.text
-    }
     @IBOutlet weak var ageTextField: UITextField!
     @IBOutlet weak var idNumTextField: UITextField!
     @IBOutlet weak var vaccineTypeTextField: UITextField!
